@@ -1,0 +1,43 @@
+.profileContainer {
+	width: 1000px;
+	column-gap: 100px;
+	padding: 50px;
+	height: 600px;
+}
+.aboutInfos {
+	width: 400px;
+}
+.aboutLabel {
+	width: 400px;
+	border-bottom: 1px solid rgb(148, 148, 148);
+}
+.profilefullName {
+	font-size: 20pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.userRole {
+	color: rgb(6, 105, 181);
+	font-weight: bold;
+}
+.rank {
+	margin-top: 30px;
+}
+.aboutInfo,
+.aboutLabel {
+	font-weight: bolder;
+}
+.infoVal p {
+	color: rgb(6, 105, 181);
+	font-weight: bold;
+}
+.profileImage {
+	padding: 5px;
+	border-radius: 50%;
+	border: 4px solid rgb(136, 136, 136);
+}
+.profileImage img {
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+}

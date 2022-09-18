@@ -1,0 +1,41 @@
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flexStart {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.flexEnd {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.flexBetween {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flexCol {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.flexColStart {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.app {
+	font-family: "Montserrat", sans-serif;
+	height: -webkit-fill-available;
+}

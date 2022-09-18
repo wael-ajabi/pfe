@@ -1,0 +1,92 @@
+.actionIcons svg {
+	height: 25px;
+	width: 25px;
+}
+.actionIcons {
+	gap: 10px;
+}
+.fullName {
+	height: 40px;
+}
+.fullName p {
+	margin: 2px;
+}
+td {
+	padding-left: 5px;
+}
+.ImageAndFullname {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.ImageAndFullname .userImage {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.dataRow td {
+	border-bottom: solid 1px rgb(163, 159, 159);
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+
+.En_stock p {
+	margin: 0;
+	color: #54deef;
+	font-weight: bolder;
+	background-color: #e0f9fc;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+.En_cours_de_livraison p {
+	margin: 0;
+	color: #34ca77;
+	font-weight: bolder;
+	background-color: #e5f8ed;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+.Livrés p {
+	margin: 0;
+	color: #ffa958;
+	font-weight: bolder;
+	background-color: #fff3e8;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+.Livrés_et_payes p {
+	margin: 0;
+	color: #2ac770;
+	font-weight: bolder;
+	background-color: #e5f8ed;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+
+.Planifiés_retour p {
+	margin: 0;
+	color: #ffa047;
+	font-weight: bolder;
+	background-color: #fff3e8;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+
+.Retournés p {
+	margin: 0;
+	color: #ee8080;
+	font-weight: bolder;
+	background-color:  #fceaea;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}

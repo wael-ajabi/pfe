@@ -1,0 +1,83 @@
+.updateModel {
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(99, 99, 99, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.modelll {
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  width: 720px;
+  height: 700px;
+  margin-top: -50px;
+}
+.titleUpdate {
+  margin-top: 8px;
+  padding-top: 12px;
+  color: #7367f0;
+}
+/* .titUpdate {
+  background-color: #f3f3f3;
+  padding-bottom: 1px;
+} */
+.parentUBtn {
+  display: flex;
+  padding-left: 480px;
+}
+.labelUpdate {
+  color: #222222;
+  font-weight: 900;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.updateBtn {
+  width: 100px;
+  height: 37px;
+  margin: 5px;
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#update {
+  background-color: #7367f0;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(73, 73, 73);
+}
+
+.parentBtnn {
+  display: flex;
+  padding-left: 350px;
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+
+.updateBtn {
+  width: 150px;
+  height: 32px;
+  margin: 5px;
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#ajouter {
+  background-color: #7367f0;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(73, 73, 73);
+}
+#updateImg {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+#annuler {
+  height: 37px;
+}

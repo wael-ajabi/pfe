@@ -1,0 +1,60 @@
+.modelBackGround {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(147, 144, 144, 0.25);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+}
+.deleteModel {
+	width: 400px;
+	height: 140px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+}
+.deleteLabel,
+.deleteText,
+.buttons {
+	width: 390px;
+}
+.deleteLabel {
+	color: #ed8787;
+	font-weight: 900;
+	padding-left: 10px;
+	height: 40px;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+}
+.deleteText {
+	height: 40px;
+	padding-left: 10px;
+	border-bottom: solid 1px #c7c7c7;
+}
+.buttons {
+	height: 60px;
+	gap: 10px;
+}
+.delete {
+	background-color: #ea5455;
+	color: #fff;
+	font-weight: 400;
+	border-radius: 5px;
+	border: none;
+	width: 80px;
+	height: 35px;
+	cursor: pointer;
+}
+.cancel {
+	height: 35px;
+	width: 70px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 2px solid #c7c7c7;
+	color: #c7c7c7;
+	font-weight: 400;
+	cursor: pointer;
+}

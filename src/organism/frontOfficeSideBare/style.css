@@ -1,0 +1,47 @@
+.sideBarContainer img {
+  width: 150px;
+  height: 40px;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+.sideBarContainer {
+  /* position: fixed; */
+  width: 200px;
+  height: 810px;
+  padding: 20px;
+  background-color: rgb(40, 48, 70);
+  color: rgb(176, 179, 185);
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sideBarContainer:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.sideBarContainer img + div {
+  margin-bottom: 30px;
+}
+
+.sideBarContainer div {
+  width: 200px;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.sideBarContainer div:hover {
+  background-image: linear-gradient(to right, #7266ed, #5e57c1);
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 3px rgba(94, 87, 193, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(94, 87, 193, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(94, 87, 193, 0.75);
+}
+
+.visited {
+  background-image: linear-gradient(to right, #7266ed, #5e57c1);
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 3px rgba(94, 87, 193, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(94, 87, 193, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(94, 87, 193, 0.75);
+}

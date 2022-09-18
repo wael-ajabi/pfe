@@ -1,0 +1,69 @@
+.actionIcons svg {
+	height: 25px;
+	width: 25px;
+}
+.actionIcons {
+	gap: 10px;
+}
+.fullName {
+	height: 40px;
+}
+.fullName p {
+	margin: 2px;
+}
+td {
+	padding-left: 5px;
+}
+.ImageAndFullname {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.ImageAndFullname .userImage {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.dataRow td {
+	border-bottom: solid 1px rgb(163, 159, 159);
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.commercial p {
+	margin: 0;
+	color: #ffb167;
+	font-weight: bolder;
+	background-color: #fff3e8;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+.gérant p {
+	margin: 0;
+	color: #ee8080;
+	font-weight: bolder;
+	background-color: #fceaea;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+.livreur p {
+	margin: 0;
+	color: #74daa2;
+	font-weight: bolder;
+	background-color: #e5f8ed;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}
+.magasiné p {
+	margin: 0;
+	color: #52ddef;
+	font-weight: bolder;
+	background-color: #e0f9fc;
+	width: fit-content;
+	padding: 2px 8px;
+	border-radius: 15px;
+}

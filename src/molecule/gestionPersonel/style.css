@@ -1,0 +1,45 @@
+.addPerson {
+  width: 200px;
+  background-color: #28c76f;
+  border-radius: 3px;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+}
+.labelGestion {
+  height: 30px;
+  font-weight: 1000;
+  color: #54525e;
+  margin-bottom: 10px;
+}
+.labelGestion svg {
+  height: 15px;
+  width: 15px;
+}
+.selectAndSearchInput {
+  height: 60px;
+  font-weight: 500;
+  color: #54525e;
+}
+.selectSection select {
+  border-radius: 5px;
+  border: 1px solid #d0c9c9;
+  width: 60px;
+  height: 35px;
+  color: #54525e;
+}
+.selectAndSearchInput input {
+  border-radius: 5px;
+  border: 1px solid #d0c9c9;
+  height: 35px;
+  width: 200px;
+  color: #54525e;
+}
+
+.selectAndSearchInput input:focus {
+  border-radius: 5px;
+  border: 1px solid #d0c9c9;
+  height: 35px;
+  width: 200px;
+  color: #54525e;
+}

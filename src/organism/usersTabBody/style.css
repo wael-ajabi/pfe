@@ -1,0 +1,7 @@
+.usersTab thead {
+	background-color: #f3f2f7;
+	height: 50px;
+}
+.usersTab {
+	width: -webkit-fill-available;
+}

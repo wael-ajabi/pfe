@@ -1,0 +1,17 @@
+.parentColis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.numAndText {
+  margin-left: 10%;
+}
+.numStat {
+  margin-bottom: -1vw;
+}
+.simpleText {
+  color: rgb(63, 63, 63);
+  font-weight: bolder;
+}

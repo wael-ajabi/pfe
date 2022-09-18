@@ -1,0 +1,73 @@
+.loginInterface img {
+  height: 790px;
+}
+.rightSection {
+  width: -webkit-fill-available;
+  row-gap: 20px;
+}
+.rightSection .welcomLabel {
+  font-size: 20pt;
+  font-weight: bolder;
+}
+.signInBtn {
+  width: 310px;
+  height: 35px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #7367f0;
+  border-radius: 5px;
+  border: none;
+}
+.passwordLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+.rememberMeBox {
+  height: 15px;
+  width: 15px;
+}
+.colored {
+  color: #7367f0;
+}
+span.colored {
+  font-weight: bold;
+}
+.line span {
+  width: 120px;
+  height: 0;
+  border: 0.1px solid rgb(183, 182, 182);
+}
+.line,
+.socialMediaIcons {
+  column-gap: 15px;
+}
+.alert {
+  font-weight: bold;
+  color: rgb(234, 105, 105);
+}
+.backtologin {
+  font-weight: bold;
+  font-size: 15pt;
+  color: #7367f0;
+  column-gap: 10px;
+  width: 300px;
+  cursor: pointer;
+}
+.backtologin svg {
+  width: 20px;
+  height: 20px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.radio {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.content {
+	position: relative;
+	padding: 15px 20px;
+	width: -webkit-fill-available;
+	background-color: #f6f6f6;
+}
+.backOfficeInterface {
+	display: flex;
+	align-items: flex-start;
+	justify-content: start;
+}
+.underNav {
+	scroll-behavior: smooth;
+	/* overflow-y: auto; */
+}

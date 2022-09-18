@@ -1,0 +1,44 @@
+.size {
+	width: 300px;
+	margin-left: 0;
+}
+.inputPosition {
+	margin-left: 0;
+}
+.firstRow {
+	width: 412px;
+}
+.secondRow {
+	width: 625px;
+}
+.thirdRow {
+	width: 625px;
+	background-color: #e6e6e6;
+	height: 100px;
+	border-radius: 5px;
+	border-color: #b2aeae;
+	margin-top: 15px;
+}
+.infoLabel {
+	font-size: 20pt;
+	font-weight: bold;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(155, 155, 155);
+}
+.contentFrontOffice {
+	padding-top: 40px;
+	row-gap: 20px;
+}
+.bottom {
+	height: 100px;
+	width: -webkit-fill-available;
+	
+}
+.addColisBtn {
+	float: right;
+	background-color: #7367f0;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	margin-right: 200px;
+}
